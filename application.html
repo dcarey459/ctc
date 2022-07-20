@@ -1,0 +1,249 @@
+
+
+
+<!-- APPLICATION FOR APPROVAL -->
+    <body>
+          <div class="container">
+            <div class="py-5 text-center">
+              <h2>Application For Approval</h2>
+            </div>
+          </div>
+
+<!-- PERSONAL INFO -->
+      <div class="container">
+        <form action="/application" class="needs-validation" novalidate method="post">
+          <div class="row">
+            <div class="col-sm-3 pb-2">
+              <label for="firstName" class="form-label">First name</label>
+              <input type="text" name="fName" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <label for="lastName" class="form-label">Last name</label>
+              <input type="text" name="lName" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+<!-- SOCIAL SECURITY NUMBER -->
+            <div class="col-sm-3">
+              <label for="ssn" class="form-label">Social Security Number</label>
+              <input type="text" name="ssn" class="form-control" id="SSN" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid Social Security is required.
+              </div>
+            </div>
+
+<!-- DATE OF BIRTH -->
+            <div class="col-sm-2">
+              <label for="birthDate" class="form-label">Birth Date</label>
+              <input type="text" name="dob" class="form-control" id="DOB" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid Date of Birth is required.
+              </div>
+            </div>
+
+<!-- ADDRESS -->
+            <div class="col-sm-3 pb-2">
+              <label for="address" class="form-label">Address</label>
+              <input type="text" name="address" class="form-control" id="address" placeholder="1234 Main St" required>
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
+              <input type="text" name="address2" class="form-control" id="address2" placeholder="Apartment or suite">
+            </div>
+
+            <div class="col-sm-3">
+              <label for="City" class="form-label">City</label>
+              <input type="text" name="city" class="form-control" id="city" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your City.
+              </div>
+            </div>
+
+            <div class="col-sm-1">
+              <label for="state" class="form-label">State</label>
+              <input type="text" name="state" class="form-control" id="state" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your State.
+              </div>
+            </div>
+
+            <div class="col-sm-2">
+              <label for="zipCode" class="form-label">Zip Code</label>
+              <input type="text" name="zip" class="form-control" id="zip" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your Zip Code.
+              </div>
+            </div>
+
+<!-- PHONE NUMBERS -->
+            <div class="col-sm-2 pb-2">
+              <label for="homePhone" class="form-label">Home Phone</label>
+              <input type="text" name="hPhone"class="form-control" id="homePhone" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your Home Phone.
+              </div>
+            </div>
+
+            <div class="col-sm-2">
+              <label for="cellPhone" class="form-label">Cell Phone</label>
+              <input type="text" name="cPhone"class="form-control" id="cellPhone" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your Cell Phone.
+              </div>
+            </div>
+
+<!-- EMAIL -->
+            <div class="col-sm-4">
+              <label for="email" class="form-label">Email</label>
+              <input type="text" name="email" class="form-control" id="email" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your Email.
+              </div>
+            </div>
+
+<!-- WORK HISTORY -->
+            <div class="container">
+              <div class="py-5 text-center">
+                <h2>Work History</h2>
+              </div>
+            </div>
+
+<!-- EMPLOYMENT -->
+            <div class="col-sm-5">
+              <label for="employment" class="form-label">Employer</label>
+              <input type="text" name="emp"class="form-control" id="employment" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your Employment.
+              </div>
+            </div>
+
+
+<!-- POSITION TITLE -->
+            <div class="col-sm-2 pb-2">
+              <label for="posTitle" class="form-label">Position/Title</label>
+              <input type="text" name="posTitle"class="form-control" id="posTitle" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your Postion or Title.
+              </div>
+            </div>
+
+<!-- MONTHLY INCOME -->
+            <div class="col-sm-2">
+              <label for="income" class="form-label">Monthly Income</label>
+              <input type="text" name="income" class="form-control" id="income" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your Monthly Income.
+              </div>
+            </div>
+
+<!-- TIME ON JOB -->
+            <div class="col-sm-2 pb-2">
+              <label for="toj=" class="form-label">Time On Job</label>
+              <input type="text" name="toj" class="form-control" id="toj" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your Time On Job.
+              </div>
+            </div>
+
+
+              <div class="col-sm-4 pb-2">
+                <label for="workPhone=" class="form-label">Work Phone</label>
+                <input type="text" name="wphone" class="form-control" id="workPhone" placeholder="" required>
+                <div class="invalid-feedback">
+                  Please enter your Email.
+                </div>
+              </div>
+
+
+            <div class="col-sm-4 pb-2">
+              <label for="workEmail=" class="form-label">Work Email</label>
+              <input type="text" name="wkemail" class="form-control" id="workEmail" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your Email.
+              </div>
+            </div>
+
+<!-- TYPE OF LOAN -->
+            <div class="container">
+              <div class="py-5 text-center">
+                <h2>Type of Loan Applying</h2>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <label for="car" class="form-label">Auto Loan</label>
+              <input type="text" name="car" class="form-control" id="car" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your Car.
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <label for="homeLoan=" class="form-label">Home Loan</label>
+              <input type="text" name="hmloan" class="form-control" id="homeLoan" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your Home Loan.
+              </div>
+            </div>
+
+<!-- MONTHLY BUDGET -->
+            <div class="col-sm-3">
+              <label for="payment=" class="form-label">Monthly Budget</label>
+              <input type="text" name="payment" class="form-control" id="payment" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter your Monthly Budget.
+              </div>
+            </div>
+
+
+<!-- CASH DOWN -->
+            <div class="col-sm-3 pb-2">
+              <label for="downpayment=" class="form-label">Cash Down</label>
+              <input type="text" name="dnpay" class="form-control" id="downpayment" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter a cash amount even if it is zero.
+              </div>
+            </div>
+
+<!-- Pull Credit? -->
+            <div class="container">
+              <div class="py-5 text-center">
+                <h2>Authorization to pull credit file?</h2>
+              </div>
+            </div>
+
+            <div class="col-sm-1">
+              <label for="yes=" class="form-label">Yes</label>
+              <input type="text" name="yes" class="form-control" id="yes" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter only yes here.
+              </div>
+            </div>
+
+            <div class="col-sm-1 pb-2">
+              <label for="no=" class="form-label">No</label>
+              <input type="text" name="no" class="form-control" id="no" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter only no here.
+              </div>
+            </div>
+
+<!-- SUBMIT BUTTON -->
+            <div class="col-sm-12 pt-3">
+              <button class="btn btn-lg" type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </body>
+</html>

@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*****************************TAG Selectors****************************/
+a {
+  color: brown;
+  font-weight:  700;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 3rem;
+  text-align: center;
+  color: #000;
+}
+
+/*****************************credit agencies pg****************************/
+h4 {
+  text-align: center;
+}
+
+/******paragraph**under**pics****************************/
+ p {
+  color: #000;
+  line-height: 2;
+  text-align: left;
+  margin: 0 auto 0 auto;
+}
+
+
+/*****************************Class Selectors****************************/
+/******non bootstrap code****************************/
+
+.app {
+  background-color: #ffcc80;
+}
+
+ .btn-warning {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+  background-color: brown;
+  color: #fff
+}
+
+
+.card-header{
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+
+/******copyright****************************/
+.copy {
+ color: brown;
+ font-weight: 500px;
+ width: 100%;
+ text-align: center;
+}
+
+ .count {
+  padding: 50px 0 75px;
+}
+
+/******index h1****************************/
+.countHome {
+ padding: 50px 0 25px;
+}
+
+/*************BACKGROUND IMAGE URL TRICK THE LORD SHOWED ME ON DEC 1 2020******/
+/**********THIS WAS NOT IN ANY VIDEO I HAD TO DISCOVER ON MY OWN*************/
+/* .jumbotron {
+  background-image: url("../image/2Pen.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.mx-auto {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+
+.mxOff {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 50, 0.5);
+}
+
+  .navbar {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+
+/*---offer-------*/
+ .offer {
+  background:  #ffcc80;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/****CTC Workbook IMG*******/
+.offer img {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+
+.subscribe {
+  max-width: 500px;
+  margin-top: 50px;
+  padding: 60px;
+  background: #ffffff8c;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+
+/*********COUNT THE COST TITLE, SHADOW AND BOXES***********/
+.title-style h1, h2 {
+padding: 20px 0;
+font-size: 4.5rem
+}
+
+.title-style {
+  margin: 0 auto 80px;
+  height: 120px;
+  width: 80%;
+  max-width: 700px;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+}
+
+
+.title-style::after {
+  content: '';
+  height: 100px;
+  width: 200px;
+  background: brown;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: -1;
+}
+
+
+.title-style::before {
+  content: '';
+  height: 100px;
+  width: 200px;
+  background: brown;
+  position: absolute;
+  bottom:  -10px;
+  right: -10px;
+  z-index: -1;
+}
+
+#footer {
+ background-color: #fff;
+ text-align: center;
+}
+
+
+
+/*----for small device---------*/
+ @media only screen and (max-width:900px)
+{
+  .title-style h1, h2
+  {
+    font-size: 50px;
+    padding: 0;
+  }
+}
