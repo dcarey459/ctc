@@ -138,19 +138,20 @@
 </body>
 </html>
 
- <footer>
+<div class="container">
+    <footer>
       <!-- <i class="fas fa-envelope social-icon"></i>
       <i class="fab fa-facebook-f social-icon"></i>
       <i class="fab fa-twitter social-icon"></i>
       <i class="fab fa-google-plus-g social-icon"></i>
       <i class="fab fa-instagram social-icon"></i> -->
-      <p class="copyright"> 
+      <p class="text-center">
         &copy; copyright CTC Ministries 2002&mdash; <span id='curYr'></span> </p>
       </p>
+      <script>
+        var date = new Date();
+        var year = date.getFullYear();
+        document.getElementById('curYr').innerHTML = year;
+      </script>
     </footer>
-
-    <script>
-      var date = new Date();
-      var year = date.getFullYear();
-      document.getElementById('curYr').innerHTML = year;
-    </script>
+</div>
