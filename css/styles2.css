@@ -51,10 +51,6 @@ h4 {
   box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
 }
 
-.card {
-  min-width: none;
-}
-
 /******copyright****************************/
 .copy {
  color: brown;
